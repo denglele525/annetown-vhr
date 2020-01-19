@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="shopxx-model" />
+        <module name="shopxxhr-repository" />
+        <module name="shopxxhr-web" />
+        <module name="shopxx-service" />
+        <module name="shopxxhr-commons" />
+        <module name="shopxxhr (1) (com.shopxx)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shopxx-model" target="1.8" />
+      <module name="shopxx-service" target="1.8" />
+      <module name="shopxxhr" target="1.8" />
+      <module name="shopxxhr (1) (com.shopxx)" target="1.8" />
+      <module name="shopxxhr-commons" target="1.8" />
+      <module name="shopxxhr-repository" target="1.8" />
+      <module name="shopxxhr-web" target="1.8" />
+      <module name="shopxxhrserver" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="shopxx-model" options="-parameters" />
+      <module name="shopxx-service" options="-parameters" />
+      <module name="shopxxhr (1) (com.shopxx)" options="-parameters" />
+      <module name="shopxxhr-commons" options="-parameters" />
+      <module name="shopxxhr-repository" options="-parameters" />
+      <module name="shopxxhr-web" options="-parameters" />
+    </option>
+  </component>
+</project>

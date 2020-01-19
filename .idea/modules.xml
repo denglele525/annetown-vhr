@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/shopxxhrserver/shopxx-model/shopxx-model.iml" filepath="$PROJECT_DIR$/shopxxhrserver/shopxx-model/shopxx-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopxxhrserver/shopxx-service/shopxx-service.iml" filepath="$PROJECT_DIR$/shopxxhrserver/shopxx-service/shopxx-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopxxhr.iml" filepath="$PROJECT_DIR$/shopxxhr.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/shopxxhr (1) (com.shopxx).iml" filepath="$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/shopxxhr (1) (com.shopxx).iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-commons/shopxxhr-commons.iml" filepath="$PROJECT_DIR$/shopxxhrserver/shopxxhr-commons/shopxxhr-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-repository/shopxxhr-repository.iml" filepath="$PROJECT_DIR$/shopxxhrserver/shopxxhr-repository/shopxxhr-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/shopxxhr-web.iml" filepath="$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/shopxxhr-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopxxhrserver/shopxxhrserver.iml" filepath="$PROJECT_DIR$/shopxxhrserver/shopxxhrserver.iml" />
+    </modules>
+  </component>
+</project>

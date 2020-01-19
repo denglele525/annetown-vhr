@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9c4c190-d79a-4e17-8ee3-2aa4bbe37278" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/shopxxhrserver/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/shopxxhrserver/shopxxhr-commons/target/" />
+    <ignored path="$PROJECT_DIR$/shopxxhrserver/shopxx-service/target/" />
+    <ignored path="$PROJECT_DIR$/shopxxhrserver/shopxx-model/target/" />
+    <ignored path="$PROJECT_DIR$/shopxxhrserver/shopxxhr-repository/target/" />
+    <ignored path="$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/src/main/java/net/shopxx/shopxxhr/Controller/config/SystemConfigController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/src/main/java/net/shopxx/shopxxhr/ShopxxhrApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#253#254#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxx-service/src/main/java/net/shopxx/shopxxhr/service/MenuService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxx-service/src/main/java/net/shopxx/shopxxhr/service/impl/MenuServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dru</find>
+      <find>lomb</find>
+      <find>com.shopxx.shopxxhr.entity</find>
+      <find>com.shopxx.shopxxhr.model</find>
+      <find>com.shopxx.shopxxhr.service.impl</find>
+      <find>com.shopxx.shopxxhr.service</find>
+      <find>com.shopxx.shopxxhr.repository</find>
+      <find>HrException</find>
+      <find>com.shopxx.shopxxhr.utils.HrUtil;</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>com.shopxx.shopxxhr.model</replace>
+      <replace>net.shopxx.shopxxhr.model</replace>
+      <replace>net.shopxx.shopxxhr.service.impl</replace>
+      <replace>net.shopxx.shopxxhr.service</replace>
+      <replace>net.shopxx.shopxxhr.repository</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/shopxxhr-commons/src/main/java/net/shopxx/shopxxhr/utils/POIUtils.java" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/shopxxhr-commons/pom.xml" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/pom.xml" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/shopxx-model/src/main/java/net/shopxx/shopxxhr/model/Nation.java" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/shopxx-service/src/main/java/net/shopxx/shopxxhr/utils/POIUtils.java" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/shopxx-service/src/main/java/net/shopxx/shopxxhr/service/EmployeeService.java" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/shopxxhr-repository/src/main/java/net/shopxx/shopxxhr/repository/BaseRepository.java" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/shopxx-service/pom.xml" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/shopxxhr-repository/pom.xml" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/shopxx-service/src/main/java/net/shopxx/shopxxhr/service/HrService.java" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/shopxx-service/src/main/java/net/shopxx/shopxxhr/service/impl/DepartmentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/shopxx-model/pom.xml" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/src/main/java/com/shopxx/shopxxhr/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/src/main/java/com/shopxx/shopxxhr/Controller/emp/EmpBasicController.java" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/shopxx-service/src/main/java/net/shopxx/shopxxhr/service/MenuService.java" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/pom.xml" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/src/main/java/com/shopxx/shopxxhr/ShopxxhrApplication.java" />
+        <option value="$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/src/main/java/net/shopxx/shopxxhr/ShopxxhrApplication.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shopxxhr" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="shopxxhr" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="31" />
+    <option name="width" value="1741" />
+    <option name="height" value="1010" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shopxxhr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopxxhr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopxxhr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopxxhr" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxxhrserver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopxxhr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopxxhr" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxxhrserver" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxx-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopxxhr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopxxhr" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxxhrserver" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxx-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopxxhr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopxxhr" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxxhrserver" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxx-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopxxhr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopxxhr" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxxhrserver" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxx-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopxxhr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopxxhr" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxxhrserver" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxx-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopxxhr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopxxhr" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxxhrserver" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxx-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxx" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopxxhr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopxxhr" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxxhrserver" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxx-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="net" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxx" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxxhr" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopxxhr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopxxhr" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxxhrserver" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxxhr-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopxxhr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopxxhr" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxxhrserver" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxxhr-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopxxhr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopxxhr" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxxhrserver" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxxhr-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="shopxxhr" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shopxxhr" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxxhrserver" type="462c0819:PsiDirectoryNode" />
+              <item name="shopxxhr-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\develop\project\vhr\shopxxhr\shopxxhrserver\shopxxhr-commons\src\main\java\net\shopxx\shopxxhr\utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\develop\project\vhr\shopxxhr\shopxxhrserver" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="shopxx-web" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopxxhr-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="net.shopxx.shopxxhr.ShopxxhrApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9c4c190-d79a-4e17-8ee3-2aa4bbe37278" name="Default Changelist" comment="" />
+      <created>1579441380306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579441380306</updated>
+      <workItem from="1579441382986" duration="3093000" />
+      <workItem from="1579444615050" duration="2057000" />
+      <workItem from="1579446809238" duration="2658000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="7808000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="31" y="0" width="1741" height="1010" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21594289" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="UI Designer" order="6" />
+      <window_info id="Favorites" order="7" side_tool="true" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295325" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="JRebel Executor" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.3295325" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.20999405" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxxhrserver.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxx-service/src/main/java/net/shopxx/shopxxhr/utils/JsonUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-494">
+          <caret line="23" column="19" selection-start-line="23" selection-start-column="19" selection-end-line="23" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-commons/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxx-model/src/main/java/net/shopxx/shopxxhr/model/Nation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxx-service/src/main/java/net/shopxx/shopxxhr/utils/POIUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="277" column="91" selection-start-line="277" selection-start-column="91" selection-end-line="277" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxx-service/src/main/java/net/shopxx/shopxxhr/service/EmployeeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/src/main/java/net/shopxx/shopxxhr/Controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxx-model/src/main/java/net/shopxx/shopxxhr/model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxx-model/src/main/java/net/shopxx/shopxxhr/model/Position.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-repository/src/main/java/net/shopxx/shopxxhr/repository/extension/QuerydslJpaRepositoryExtensionImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-repository/src/main/java/net/shopxx/shopxxhr/repository/BaseRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/src/main/java/net/shopxx/shopxxhr/exception/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxx-service/src/main/java/net/shopxx/shopxxhr/utils/HrUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxx-service/src/main/java/net/shopxx/shopxxhr/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxx-service/src/main/java/net/shopxx/shopxxhr/service/HrService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="53" column="33" selection-start-line="53" selection-start-column="33" selection-end-line="53" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxx-model/src/main/java/net/shopxx/shopxxhr/model/Department.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="25" column="27" lean-forward="true" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-repository/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="35" column="21" selection-start-line="19" selection-start-column="7" selection-end-line="35" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxx-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="36" column="21" selection-start-line="31" selection-start-column="7" selection-end-line="36" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/src/main/java/net/shopxx/shopxxhr/exception/ExceptionEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/src/main/java/net/shopxx/shopxxhr/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/src/main/java/net/shopxx/shopxxhr/Controller/emp/EmpBasicController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxx-service/src/main/java/net/shopxx/shopxxhr/service/impl/DepartmentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2071">
+          <caret line="113" column="38" selection-start-line="113" selection-start-column="38" selection-end-line="113" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxx-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxx-service/src/main/java/net/shopxx/shopxxhr/service/impl/MenuServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxx-service/src/main/java/net/shopxx/shopxxhr/service/MenuService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/src/main/java/net/shopxx/shopxxhr/Controller/config/SystemConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shopxxhrserver/shopxxhr-web/src/main/java/net/shopxx/shopxxhr/ShopxxhrApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
