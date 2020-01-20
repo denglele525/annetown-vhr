@@ -6,8 +6,8 @@ import net.shopxx.shopxxhr.model.Department;
 import net.shopxx.shopxxhr.model.Employee;
 import net.shopxx.shopxxhr.model.QDepartment;
 import net.shopxx.shopxxhr.model.QEmployee;
-//import com.shopxx.shopxxhr.exception.ExceptionEnum;
-//import com.shopxx.shopxxhr.exception.HrException;
+import net.shopxx.shopxxhr.exception.ExceptionEnum;
+import net.shopxx.shopxxhr.exception.HrException;
 import net.shopxx.shopxxhr.repository.DepartmentRepository;
 import net.shopxx.shopxxhr.service.DepartmentService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -74,14 +74,14 @@ public class DepartmentServiceImpl implements DepartmentService {
                 .where(qDepartment.parentId.eq(did))
                 .fetch();
         if (departmentChildren.size() > 0) {
-//            throw new HrException(ExceptionEnum.DEPARTMENT_SUBDEPARTMENT_FAILED);
+            throw new HrException(ExceptionEnum.DEPARTMENT_SUBDEPARTMENT_FAILED);
         }
         List<Employee> employees = jpaQueryFactory.select(Projections.bean(Employee.class, qEmployee.id))
                 .from(qEmployee)
                 .where(qEmployee.department.id.eq(did))
                 .fetch();
         if (employees.size() > 0) {
-//            throw new HrException(ExceptionEnum.DEPARTMENT_EMPLOYEE_FAILED);
+            throw new HrException(ExceptionEnum.DEPARTMENT_EMPLOYEE_FAILED);
         }
 
         Integer pid = jpaQueryFactory
