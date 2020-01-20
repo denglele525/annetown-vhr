@@ -11,10 +11,12 @@
         <module name="shopxxhr-web" />
         <module name="shopxx-service" />
         <module name="shopxxhr-commons" />
+        <module name="mailserver" />
         <module name="shopxxhr (1) (com.shopxx)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mailserver" target="1.8" />
       <module name="shopxx-model" target="1.8" />
       <module name="shopxx-service" target="1.8" />
       <module name="shopxxhr" target="1.8" />
@@ -27,6 +29,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mailserver" options="-parameters" />
       <module name="shopxx-model" options="-parameters" />
       <module name="shopxx-service" options="-parameters" />
       <module name="shopxxhr (1) (com.shopxx)" options="-parameters" />

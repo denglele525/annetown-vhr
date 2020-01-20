@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/mailserver/mailserver.iml" filepath="$PROJECT_DIR$/mailserver/mailserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopxxhrserver/shopxx-model/shopxx-model.iml" filepath="$PROJECT_DIR$/shopxxhrserver/shopxx-model/shopxx-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopxxhrserver/shopxx-service/shopxx-service.iml" filepath="$PROJECT_DIR$/shopxxhrserver/shopxx-service/shopxx-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/shopxxhr.iml" filepath="$PROJECT_DIR$/shopxxhr.iml" />

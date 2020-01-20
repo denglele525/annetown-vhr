@@ -9,6 +9,9 @@ import net.shopxx.shopxxhr.model.RespPageBean;
 import net.shopxx.shopxxhr.repository.EmployeeRepository;
 import net.shopxx.shopxxhr.service.EmployeeService;
 import org.apache.commons.collections4.IterableUtils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -26,6 +29,10 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Autowired
     EmployeeRepository employeeRepository;
+    @Autowired
+    RabbitTemplate rabbitTemplate;
+    public static final Logger LOGGER = LoggerFactory.getLogger(EmployeeServiceImpl.class);
+
     SimpleDateFormat yearFormat = new SimpleDateFormat("yyyy");
     SimpleDateFormat monthFormat = new SimpleDateFormat("MM");
     DecimalFormat decimalFormat = new DecimalFormat("##.00");
@@ -62,7 +69,12 @@ public class EmployeeServiceImpl implements EmployeeService {
         double month = (Double.parseDouble(yearFormat.format(endContract)) - Double.parseDouble(yearFormat.format(beginContract))) * 12 +
                 (Double.parseDouble(monthFormat.format(endContract)) - Double.parseDouble(monthFormat.format(beginContract)));
         employee.setContractTerm(Double.parseDouble(decimalFormat.format(month / 12)));
-        return employeeRepository.save(employee);
+        Employee result = employeeRepository.save(employee);
+        if (result != null){
+            LOGGER.info(result.toString());
+            rabbitTemplate.convertAndSend("shopxxhr.mail.welcome",employeeRepository.findById(result.getId()).orElse(null));
+        }
+        return result;
     }
 
     @Override
