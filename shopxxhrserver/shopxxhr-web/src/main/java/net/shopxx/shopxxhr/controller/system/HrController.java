@@ -1,4 +1,4 @@
-package net.shopxx.shopxxhr.Controller.system;
+package net.shopxx.shopxxhr.controller.system;
 
 import net.shopxx.shopxxhr.bean.RespBean;
 import net.shopxx.shopxxhr.model.Hr;

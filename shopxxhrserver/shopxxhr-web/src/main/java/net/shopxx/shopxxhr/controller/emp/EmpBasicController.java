@@ -1,4 +1,4 @@
-package net.shopxx.shopxxhr.Controller.emp;
+package net.shopxx.shopxxhr.controller.emp;
 
 import com.querydsl.core.types.Predicate;
 import net.shopxx.shopxxhr.bean.RespBean;

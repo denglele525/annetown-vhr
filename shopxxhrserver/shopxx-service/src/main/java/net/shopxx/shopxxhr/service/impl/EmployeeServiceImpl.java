@@ -3,10 +3,12 @@ package net.shopxx.shopxxhr.service.impl;
 import com.querydsl.core.BooleanBuilder;
 import com.querydsl.core.types.Predicate;
 import com.querydsl.jpa.JPAExpressions;
-import net.shopxx.shopxxhr.model.Employee;
-import net.shopxx.shopxxhr.model.QEmployee;
-import net.shopxx.shopxxhr.model.RespPageBean;
+import net.shopxx.shopxxhr.model.*;
+import net.shopxx.shopxxhr.repository.DepartmentRepository;
 import net.shopxx.shopxxhr.repository.EmployeeRepository;
+import net.shopxx.shopxxhr.repository.JobLevelRepository;
+import net.shopxx.shopxxhr.repository.PositionRepository;
+import net.shopxx.shopxxhr.service.DepartmentService;
 import net.shopxx.shopxxhr.service.EmployeeService;
 import org.apache.commons.collections4.IterableUtils;
 import org.slf4j.Logger;
@@ -29,6 +31,12 @@ public class EmployeeServiceImpl implements EmployeeService {
 
     @Autowired
     EmployeeRepository employeeRepository;
+    @Autowired
+    DepartmentRepository departmentRepository;
+    @Autowired
+    PositionRepository positionRepository;
+    @Autowired
+    JobLevelRepository jobLevelRepository;
     @Autowired
     RabbitTemplate rabbitTemplate;
     public static final Logger LOGGER = LoggerFactory.getLogger(EmployeeServiceImpl.class);
@@ -70,9 +78,15 @@ public class EmployeeServiceImpl implements EmployeeService {
                 (Double.parseDouble(monthFormat.format(endContract)) - Double.parseDouble(monthFormat.format(beginContract)));
         employee.setContractTerm(Double.parseDouble(decimalFormat.format(month / 12)));
         Employee result = employeeRepository.save(employee);
-        if (result != null){
+        if (result != null) {
             LOGGER.info(result.toString());
-            rabbitTemplate.convertAndSend("shopxxhr.mail.welcome",employeeRepository.findById(result.getId()).orElse(null));
+            Department department = departmentRepository.findById(result.getDepartment().getId()).orElse(null);
+            JobLevel jobLevel = jobLevelRepository.findById(result.getJoblevel().getId()).orElse(null);
+            Position position = positionRepository.findById(result.getPos().getId()).orElse(null);
+            result.setDepartment(department);
+            result.setJoblevel(jobLevel);
+            result.setPos(position);
+            rabbitTemplate.convertAndSend("shopxxhr.mail.welcome", result);
         }
         return result;
     }

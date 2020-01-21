@@ -1,4 +1,4 @@
-package net.shopxx.shopxxhr.Controller;
+package net.shopxx.shopxxhr.controller;
 
 import net.shopxx.shopxxhr.bean.RespBean;
 import org.springframework.web.bind.annotation.GetMapping;

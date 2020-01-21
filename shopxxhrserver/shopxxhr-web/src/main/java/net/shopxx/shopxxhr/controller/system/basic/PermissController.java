@@ -1,4 +1,4 @@
-package net.shopxx.shopxxhr.Controller.system.basic;
+package net.shopxx.shopxxhr.controller.system.basic;
 
 import net.shopxx.shopxxhr.bean.RespBean;
 import net.shopxx.shopxxhr.model.Menu;
