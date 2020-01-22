@@ -16,6 +16,7 @@ public enum ExceptionEnum {
     HR_DELETE_FAILED(500, "删除操作员失败"),
     ROLR_DELETE_FAILED(500, "删除角色失败(该数据有关联数据)"),
     MAILSEND_FAILED(500, "邮件发送失败"),
+    SALARY_DELETE_FAILED(500, "工资账套失败"),
     EMPLOYEE_DELETE_FAILED(500, "删除员工失败(该数据有关联数据)");
     private int value;
 

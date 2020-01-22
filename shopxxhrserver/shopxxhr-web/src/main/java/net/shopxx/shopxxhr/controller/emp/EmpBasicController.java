@@ -43,7 +43,6 @@ public class EmpBasicController {
     public RespBean addEmp(@RequestBody Employee employee) {
         Employee result = employeeService.saveOrUpdateEmp(employee);
         if (result != null) {
-
             return RespBean.ofSuccess(result);
         }
         return RespBean.ofError("添加失败！");

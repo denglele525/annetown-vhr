@@ -8,4 +8,7 @@ public interface SalaryService {
 
     List<Salary> getAllSalarities();
 
+    Salary saveOrUpdateEmp(Salary salary);
+
+    void deleteEmpById(Integer id);
 }
