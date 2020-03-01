@@ -64,6 +64,8 @@ public class QEmployee extends EntityPathBase<Employee> {
 
     public final QPosition pos;
 
+    public final ListPath<Salary, QSalary> salary = this.<Salary, QSalary>createList("salary", Salary.class, QSalary.class, PathInits.DIRECT2);
+
     public final StringPath school = createString("school");
 
     public final StringPath specialty = createString("specialty");

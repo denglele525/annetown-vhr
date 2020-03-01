@@ -1,19 +1,24 @@
 package net.shopxx.shopxxhr.model;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 @Entity
-@Data
+@Setter
+@Getter
 @NoArgsConstructor
 @AllArgsConstructor
 @Table(name = "salary")
-public class Salary {
+public class Salary implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -32,5 +37,8 @@ public class Salary {
     private Integer accumulationFundBase;
     private Float accumulationFundPer;
     private String name;
+    @ManyToMany(mappedBy = "salary", fetch = FetchType.LAZY)
+    @JsonIgnore
+    private List<Employee> employee;
 
 }

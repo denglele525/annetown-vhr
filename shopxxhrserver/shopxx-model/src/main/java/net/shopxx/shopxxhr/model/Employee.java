@@ -10,6 +10,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Data
@@ -63,6 +64,8 @@ public class Employee implements Serializable {
     @JsonFormat(pattern = "yyyy-MM-dd", timezone = "Asia/Shanghai")
     private Date endContract;
     private Integer workAge;
+    @ManyToMany(fetch = FetchType.LAZY)
+    private List<Salary> salary;
 
     @AllArgsConstructor
     @Getter

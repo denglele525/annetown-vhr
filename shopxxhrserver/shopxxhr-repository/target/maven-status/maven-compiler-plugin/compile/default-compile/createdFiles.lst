@@ -1,0 +1,15 @@
+net\shopxx\shopxxhr\repository\EmployeeRepository.class
+net\shopxx\shopxxhr\repository\HrRespository.class
+net\shopxx\shopxxhr\repository\BaseRepository.class
+net\shopxx\shopxxhr\repository\MenuRoleRepository.class
+net\shopxx\shopxxhr\repository\PoliticsstatusRepository.class
+net\shopxx\shopxxhr\repository\DepartmentRepository.class
+net\shopxx\shopxxhr\repository\HrRoleRepository.class
+net\shopxx\shopxxhr\repository\extension\QuerydslJpaRepositoryExtension.class
+net\shopxx\shopxxhr\repository\RoleRepository.class
+net\shopxx\shopxxhr\repository\JobLevelRepository.class
+net\shopxx\shopxxhr\repository\MenuRepository.class
+net\shopxx\shopxxhr\repository\extension\QuerydslJpaRepositoryExtensionImpl.class
+net\shopxx\shopxxhr\repository\PositionRepository.class
+net\shopxx\shopxxhr\repository\NationRepository.class
+net\shopxx\shopxxhr\repository\SalaryRepository.class

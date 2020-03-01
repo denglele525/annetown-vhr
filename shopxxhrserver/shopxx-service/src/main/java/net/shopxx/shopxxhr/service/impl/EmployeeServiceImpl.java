@@ -2,13 +2,11 @@ package net.shopxx.shopxxhr.service.impl;
 
 import com.querydsl.core.BooleanBuilder;
 import com.querydsl.core.types.Predicate;
+import com.querydsl.core.types.Projections;
 import com.querydsl.jpa.JPAExpressions;
+import com.querydsl.jpa.impl.JPAQueryFactory;
 import net.shopxx.shopxxhr.model.*;
-import net.shopxx.shopxxhr.repository.DepartmentRepository;
-import net.shopxx.shopxxhr.repository.EmployeeRepository;
-import net.shopxx.shopxxhr.repository.JobLevelRepository;
-import net.shopxx.shopxxhr.repository.PositionRepository;
-import net.shopxx.shopxxhr.service.DepartmentService;
+import net.shopxx.shopxxhr.repository.*;
 import net.shopxx.shopxxhr.service.EmployeeService;
 import org.apache.commons.collections4.IterableUtils;
 import org.slf4j.Logger;
@@ -21,13 +19,21 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import javax.annotation.PostConstruct;
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Service
 public class EmployeeServiceImpl implements EmployeeService {
+
+    @Autowired
+    @PersistenceContext
+    protected EntityManager entityManager;
 
     @Autowired
     EmployeeRepository employeeRepository;
@@ -38,7 +44,17 @@ public class EmployeeServiceImpl implements EmployeeService {
     @Autowired
     JobLevelRepository jobLevelRepository;
     @Autowired
+    EmployeeSalaryRepository employeeSalaryRepository;
+    @Autowired
     RabbitTemplate rabbitTemplate;
+
+    protected JPAQueryFactory jpaQueryFactory;
+
+    @PostConstruct
+    public void init() {
+        jpaQueryFactory = new JPAQueryFactory(entityManager);
+    }
+
     public static final Logger LOGGER = LoggerFactory.getLogger(EmployeeServiceImpl.class);
 
     SimpleDateFormat yearFormat = new SimpleDateFormat("yyyy");
@@ -67,6 +83,58 @@ public class EmployeeServiceImpl implements EmployeeService {
         respPageBean.setData(employeeList);
         respPageBean.setTotal(employeeList.size());
         return respPageBean;
+    }
+
+    @Override
+    public RespPageBean getEmployeeByPageWithSalary(Integer page, Integer size) {
+        RespPageBean respPageBean = new RespPageBean();
+        QSalary qSalary = QSalary.salary;
+        QEmployee qEmployee = QEmployee.employee;
+        QDepartment qDepartment = QDepartment.department;
+        if (page != null && size != null) {
+            Pageable pageable = PageRequest.of(page - 1, size);
+            Page<Employee> all = employeeRepository.findAll(pageable);
+            long totalSize = all.getTotalElements();
+            List<Employee> employeeList = all.getContent();
+            List<Employee> employees = employeeList.stream().map(
+                    employee -> {
+                        List<Salary> salaries = jpaQueryFactory
+                                .select(Projections.bean(Salary.class, qSalary.id, qSalary.accumulationFundBase, qSalary.accumulationFundPer, qSalary.allSalary, qSalary.basicSalary, qSalary.bonus, qSalary.createDate, qSalary.lunchSalary, qSalary.medicalBase, qSalary.medicalPer, qSalary.name, qSalary.pensionBase, qSalary.pensionPer, qSalary.trafficSalary))
+                                .from(qSalary)
+                                .innerJoin(qSalary.employee, qEmployee)
+                                .where(qEmployee.eq(employee))
+                                .distinct()
+                                .fetch();
+                        Department department = jpaQueryFactory
+                                .select(Projections.bean(Department.class, qDepartment.name))
+                                .from(qDepartment)
+                                .where(qDepartment.id.eq(employee.getId()))
+                                .fetchOne();
+                        employee.setSalary(salaries);
+                        employee.setDepartment(department);
+                        return employee;
+                    }
+            ).collect(Collectors.toList());
+            respPageBean.setData(employees);
+            respPageBean.setTotal(totalSize);
+            return respPageBean;
+        }
+        return respPageBean;
+    }
+
+    @Override
+    @Transactional
+    public EmployeeSalary updateOrUpdateEmployeeSalaryById(Integer eid, Integer sid) {
+        QEmployeeSalary qEmployeeSalary = QEmployeeSalary.employeeSalary;
+        EmployeeSalary employeeSalary = employeeSalaryRepository.findOne(qEmployeeSalary.employeeId.eq(eid)).orElse(null);
+        if (employeeSalary != null) {
+            employeeSalary.setSalaryId(sid);
+        } else {
+            employeeSalary = new EmployeeSalary();
+            employeeSalary.setEmployeeId(eid);
+            employeeSalary.setSalaryId(sid);
+        }
+        return employeeSalaryRepository.save(employeeSalary);
     }
 
     @Override

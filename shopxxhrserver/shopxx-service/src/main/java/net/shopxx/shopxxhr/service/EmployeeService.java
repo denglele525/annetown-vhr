@@ -2,6 +2,7 @@ package net.shopxx.shopxxhr.service;
 
 import com.querydsl.core.types.Predicate;
 import net.shopxx.shopxxhr.model.Employee;
+import net.shopxx.shopxxhr.model.EmployeeSalary;
 import net.shopxx.shopxxhr.model.RespPageBean;
 
 import java.util.Date;
@@ -18,4 +19,8 @@ public interface EmployeeService {
     void deleteEmpById(Integer id);
 
     void addEmps(List<Employee> employees);
+
+    RespPageBean getEmployeeByPageWithSalary(Integer page, Integer size);
+
+    EmployeeSalary updateOrUpdateEmployeeSalaryById(Integer eid, Integer sid);
 }

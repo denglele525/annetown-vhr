@@ -4,6 +4,8 @@ net\shopxx\shopxxhr\model\QPosition.class
 net\shopxx\shopxxhr\model\JobLevel$TitleLevel.class
 net\shopxx\shopxxhr\model\QPoliticsstatus.class
 net\shopxx\shopxxhr\model\Role.class
+net\shopxx\shopxxhr\model\EmployeeSalary.class
+net\shopxx\shopxxhr\model\QSalary.class
 net\shopxx\shopxxhr\exception\GlobalExceptionHandler.class
 net\shopxx\shopxxhr\bean\RespBean.class
 net\shopxx\shopxxhr\model\MenuRole.class
@@ -13,11 +15,13 @@ net\shopxx\shopxxhr\model\QMenuRole.class
 net\shopxx\shopxxhr\model\Employee$WorkState.class
 net\shopxx\shopxxhr\model\Position.class
 net\shopxx\shopxxhr\model\QNation.class
+net\shopxx\shopxxhr\model\Salary.class
 net\shopxx\shopxxhr\model\HrRole.class
 net\shopxx\shopxxhr\model\QHr.class
 net\shopxx\shopxxhr\bean\RespBean$Status.class
 net\shopxx\shopxxhr\model\Hr.class
 net\shopxx\shopxxhr\model\Department.class
+net\shopxx\shopxxhr\model\QEmployeeSalary.class
 net\shopxx\shopxxhr\model\Employee.class
 net\shopxx\shopxxhr\model\Politicsstatus.class
 net\shopxx\shopxxhr\exception\HrException.class
